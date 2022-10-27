@@ -1,0 +1,7 @@
+classroom1 = int(input("Введість кількість учнів у першому класі"))
+classroom2 = int(input("Введість кількість учнів у другому класі"))
+classroom3 = int(input("Введість кількість учнів у третьому класі"))
+desks1 = int(classroom1/2+classroom1%2)
+desks2 = int(classroom2/2+classroom2%2)
+desks3 = int(classroom3/2+classroom3%2)
+print("Потрібно закупити",desks1+desks2+desks3,"парт")
